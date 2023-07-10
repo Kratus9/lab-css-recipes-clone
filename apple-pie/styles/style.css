@@ -15,10 +15,50 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
-/*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+#titulo {
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 950px;
+  width: 100%;
+  margin: 0;
+}
+
+#foto {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+  color: white;
+}
+
+p {
+  text-align: justify;
+  margin: 100px;
+  font-size: 35px;
+}
+
+h2 {
+  margin: 100px;
+  font-size: 40px;
+}
+
+ul{
+  list-style-type: none;
+  margin-top: -50px;
+  margin-left: 135px;
+  margin-bottom: 100px;
+  font-size: 30px;
+}
